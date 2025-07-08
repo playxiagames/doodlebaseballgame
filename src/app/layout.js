@@ -150,7 +150,7 @@ export default function RootLayout({ children }) {
         
         {/* Favicon and manifest */}
         <link rel="icon" href="/favicon.ico" sizes="any" />
-        <link rel="apple-touch-icon" href="/apple-touch-icon.webp" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <link rel="manifest" href="/manifest.json" />
         
         {/* PWA configuration */}
@@ -255,6 +255,7 @@ export default function RootLayout({ children }) {
             })
           }}
         />
+        <script defer data-domain="doodlebaseballgame.org" src="https://click.pageview.click/js/script.js"></script>
       </head>
       <body>
         <ThemeProvider>
