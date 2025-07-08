@@ -1,7 +1,7 @@
 {
-  "name": "Geometry Dash Lite - Play Geometry Dash Online Free",
-  "short_name": "Geometry Dash Lite",
-  "description": "Play Geometry Dash Lite online for free! Jump and fly your way through danger in this rhythm-based action platformer.",
+  "name": "Doodle Baseball - Play Doodle Baseball Game Online Free",
+  "short_name": "Doodle Baseball",
+  "description": "Play Doodle Baseball online for free! Ultimate baseball game with simple controls and addictive gameplay. No download required - play directly in your browser!",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#f3f4f6",
@@ -11,13 +11,13 @@
   "lang": "en-US",
   "icons": [
     {
-      "src": "/images/logo.png",
+      "src": "/images/logo.webp",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "/images/logo.png",
+      "src": "/images/logo.webp",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"

@@ -1,5 +1,5 @@
 // 简化的SEO工具函数
-const BASE_URL = 'https://geometry-dash-lite.org';
+const BASE_URL = 'https://doodlebaseballgame.org';
 
 /**
  * 生成 canonical URL
@@ -23,12 +23,12 @@ export const generatePageMetadata = ({
   title,
   description,
   path,
-  ogImage = '/images/og-geometry-dash-lite.jpg'
+  ogImage = '/images/og-doodle-baseball.jpg'
 }) => {
   const canonicalUrl = generateCanonicalUrl(path);
-  const fullTitle = title.includes('Geometry Dash Lite') 
+  const fullTitle = title.includes('Doodle Baseball')
     ? title
-    : `${title} | Geometry Dash Lite`;
+    : `${title} | Doodle Baseball`;
   
   return {
     title: fullTitle,
@@ -42,7 +42,7 @@ export const generatePageMetadata = ({
       url: canonicalUrl,
       title: fullTitle,
       description,
-      siteName: 'Geometry Dash Lite',
+      siteName: 'Doodle Baseball',
       images: [
         {
           url: ogImage,
@@ -139,6 +139,8 @@ export const generateGameStructuredData = (game) => {
       '@type': 'AggregateRating',
       ratingValue: game.rating || 4.5,
       bestRating: 5,
+      ratingCount: game.ratingCount || 372,
+      reviewCount: game.reviewCount || 45
     },
     offers: {
       '@type': 'Offer',
@@ -147,7 +149,7 @@ export const generateGameStructuredData = (game) => {
     },
     publisher: {
       '@type': 'Organization',
-      name: 'Geometry Dash Lite',
+      name: 'Doodle Baseball',
       url: BASE_URL
     },
   };

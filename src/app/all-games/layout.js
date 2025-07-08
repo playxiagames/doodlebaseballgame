@@ -1,14 +1,14 @@
 // All Games 页面的元数据配置
 export const metadata = {
-  title: 'Search All Games - Find Your Perfect Game | Geometry Dash Lite',
+  title: 'Search All Games - Find Your Perfect Game | Doodle Baseball',
   description: 'Search and discover your perfect game from our complete collection! Use powerful filters to find games by name, category, rating. Over 100+ free online games to explore.',
   keywords: 'search games, find games, all games, game search, free online games, complete collection, game library, browser games, geometry dash games, google games',
   openGraph: {
-    title: 'Search All Games - Find Your Perfect Game | Geometry Dash Lite',
+    title: 'Search All Games - Find Your Perfect Game | Doodle Baseball',
     description: 'Search and discover your perfect game from our complete collection! Use powerful filters to find games by name, category, rating.',
     type: 'website',
-    url: 'https://geometry-dash-lite.org/all-games/',
-    siteName: 'Geometry Dash Lite',
+    url: 'https://doodlebaseballgame.org/all-games/',
+    siteName: 'Doodle Baseball',
   },
   twitter: {
     card: 'summary_large_image',

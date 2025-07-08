@@ -1,13 +1,13 @@
 {
   "site": {
-    "name": "Geometry Dash Lite - Play Geometry Dash Online Free",
-    "shortName": "Geometry Dash Lite", 
-    "description": "Play Geometry Dash Lite online for free! Ultimate rhythm-based platformer with challenging levels. No download required - play directly in your browser!",
-    "url": "https://geometry-dash-lite.org/",
-    "contactEmail": "contact@geometry-dash-lite.org",
-    "logo": "/images/logo.png",
+    "name": "Doodle Baseball - Play Doodle Baseball Game Online Free",
+    "shortName": "Doodle Baseball", 
+    "description": "Play Doodle Baseball online for free! Ultimate baseball game with simple controls and addictive gameplay. No download required - play directly in your browser!",
+    "url": "https://doodlebaseballgame.org/",
+    "contactEmail": "support@doodlebaseballgame.org",
+    "logo": "/images/logo.webp",
     "favicon": "/favicon.ico",
-    "ogImage": "https://images.geometry-dash-lite.org/og-geometry-dash-lite.webp"
+    "ogImage": "https://images.doodlebaseballgame.org/og-doodle-baseball.webp"
   },
   "analytics": {
     "googleAnalyticsId": "G-F1S6GMESB8"
@@ -18,7 +18,7 @@
     "enableThemeToggle": true
   },
   "homepage": {
-    "mainGame": "geometry-dash-lite",
+    "mainGame": "doodle-baseball",
     "popularGames": [
       "subway-surfers",
       "dinosaur-game",
@@ -28,10 +28,16 @@
       "2048"
     ],
     "newGames": ["basketball", "minesweeper", "google-minesweeper"],
-    "hotGames": ["geometry-dash-lite", "dinosaur-game", "subway-surfers", "sprunki"]
+    "hotGames": ["doodle-baseball", "dinosaur-game", "subway-surfers", "sprunki"]
   },
   "navigation": {
     "topItems": [
+      {
+        "type": "category",
+        "id": "google-games",
+        "title": "Google Games",
+        "url": "/category/google-games/"
+      },
       {
         "type": "category",
         "id": "geometry-dash",
@@ -39,16 +45,10 @@
         "url": "/category/geometry-dash/"
       },
       {
-        "type": "page",
+        "type": "category",
         "id": "all-games",
         "title": "All Games",
         "url": "/all-games/"
-      },
-      {
-        "type": "game",
-        "id": "dinosaur-game",
-        "title": "Dinosaur Game",
-        "url": "/games/dinosaur-game/"
       },
       {
         "type": "game",
@@ -81,6 +81,6 @@
         "external": false
       }
     ],
-    "copyright": "© 2025 Geometry Dash Lite. All rights reserved."
+    "copyright": "© 2025 Doodle Baseball. All rights reserved."
   }
 } 

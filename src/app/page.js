@@ -17,7 +17,7 @@ import {
   getSidebarRecommendedGames,
   getFeaturedGames,
   getPopularGames, 
-  getGeometryDashGames,
+  getGamesByCategory,
   getCategoryPreviewGames,
   getAllCategories,
   getMoreGamesForHomepage,
@@ -37,10 +37,10 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <div className="text-center">
             <h1 className="text-4xl font-bold text-gray-900 dark:text-white mb-4">
-              🎮 Geometry Dash Lite
+              🎮 Doodle Baseball
             </h1>
             <p className="text-xl text-gray-600 dark:text-gray-300 mb-8">
-              Play Geometry Dash Lite online for free! Jump and fly your way through danger in this rhythm-based action platformer.
+              Play Doodle Baseball online for free! Hit home runs and enjoy the ultimate baseball game experience with simple controls and addictive gameplay.
             </p>
             <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-4">
               <p className="text-yellow-800">Loading game data...</p>
@@ -53,22 +53,22 @@ export default function HomePage() {
   
   // 获取各种游戏数据
   const sidebarGames = getSidebarRecommendedGames(mainGame.id, 7);
-  const geometryDashGames = getGeometryDashGames();
+  const googleGames = getGamesByCategory('google-games'); // 完整的 Google Games 列表作为核心产品
   const popularGames = getPopularGames();
   const allGames = getAllGames(); // 用于获取游戏总数
   
   // 获取分类预览游戏
   const categories = getAllCategories();
-  const googleGamesPreview = getCategoryPreviewGames('google-games', 6);
+  const geometryDashGamesPreview = getCategoryPreviewGames('geometry-dash', 6); // Geometry Dash 改为预览
   const js13kGamesPreview = getCategoryPreviewGames('js13k-games', 4);
 
   // 收集已展示的游戏ID，用于排除重复
   const displayedGameIds = [
     mainGame.id,
     ...sidebarGames.map(g => g.id),
-    ...geometryDashGames.map(g => g.id),
+    ...googleGames.map(g => g.id),
     ...popularGames.map(g => g.id),
-    ...googleGamesPreview.map(g => g.id),
+    ...geometryDashGamesPreview.map(g => g.id),
     ...js13kGamesPreview.map(g => g.id)
   ];
 
@@ -111,9 +111,9 @@ export default function HomePage() {
           </div>
         }>
           <LazyGameSection
-            geometryDashGames={geometryDashGames}
+            googleGames={googleGames}
             popularGames={popularGames}
-            googleGamesPreview={googleGamesPreview}
+            geometryDashGamesPreview={geometryDashGamesPreview}
             js13kGamesPreview={js13kGamesPreview}
             moreGames={moreGames}
             allGamesCount={allGames.length}

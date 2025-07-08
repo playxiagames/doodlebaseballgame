@@ -1,7 +1,7 @@
 {
-  "name": "geometry-dash-lite-site",
+  "name": "doodle-baseball-game-site",
   "version": "1.0.0",
-  "description": "Universal game website template with Geometry Dash Lite",
+  "description": "Universal game website template with Doodle Baseball",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -24,6 +24,6 @@
     "postcss": "^8.4.31",
     "tailwindcss": "^3.3.5"
   },
-  "author": "Geometry Dash Lite Site",
+  "author": "Doodle Baseball Game Site",
   "license": "MIT"
 } 

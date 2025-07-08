@@ -60,7 +60,7 @@ Edit `src/data/siteConfig.json` with your site details:
 ## 🎨 Customization
 
 ### Branding
-- Replace logo: `public/images/logo.png`
+- Replace logo: `public/images/logo.webp`
 - Update favicon: `public/favicon.ico`
 - Modify site information in `src/data/siteConfig.json`
 

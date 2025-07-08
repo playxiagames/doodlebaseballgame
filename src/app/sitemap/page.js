@@ -6,7 +6,7 @@ import { generatePageMetadata } from '../../utils/seoUtils';
 export async function generateMetadata() {
   return generatePageMetadata({
     title: 'Sitemap - All Pages Navigation',
-    description: 'View the complete page structure of Geometry Dash Lite gaming website, including all games, categories and important page navigation links.',
+    description: 'View the complete page structure of Doodle Baseball gaming website, including all games, categories and important page navigation links.',
     path: '/sitemap'
   });
 }

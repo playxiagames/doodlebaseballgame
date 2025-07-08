@@ -1,7 +1,8 @@
 import { getAllGames, getAllCategories } from '../utils/gameData';
 
+const baseUrl = 'https://doodlebaseballgame.org';
+
 export default function sitemap() {
-  const baseUrl = 'https://geometry-dash-lite.org';
   const currentDate = new Date();
   
   // 获取所有游戏和分类数据
@@ -127,7 +128,7 @@ export default function sitemap() {
     }
     
     // 主推游戏额外加权
-    if (game.slug === 'geometry-dash-lite' || 
+    if (game.slug === 'doodle-baseball' ||
         game.slug === 'geometry-dash' || 
         game.slug === 'dinosaur-game') {
       gamePriority += 0.1;

@@ -387,7 +387,13 @@
         "Practice timing with different pitch speeds"
       ],
       "relatedGameIds": [
-        "google-doodle-baseball"
+        "pac-man",
+        "atari-breakout",
+        "basketball",
+        "google-minesweeper",
+        "dinosaur-game",
+        "snake-game",
+        "wacky-flip"
       ]
     },
     {

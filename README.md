@@ -165,7 +165,7 @@ Customize your site through `src/data/siteConfig.json`:
 
 ### Visual Customization
 
-- **Logo**: Replace `public/images/logo.png`
+- **Logo**: Replace `public/images/logo.webp`
 - **Favicon**: Replace `public/favicon.ico`
 - **Colors**: Modify Tailwind config or custom CSS
 - **Styling**: All styles use Tailwind CSS classes

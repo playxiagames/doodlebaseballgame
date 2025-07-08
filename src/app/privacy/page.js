@@ -4,7 +4,7 @@ import { generatePageMetadata } from '../../utils/seoUtils';
 
 export const metadata = generatePageMetadata({
   title: 'Privacy Policy',
-  description: 'Our Privacy Policy explains how Geometry Dash Lite collects, uses, and protects your personal information when you use our gaming platform.',
+  description: 'Our Privacy Policy explains how Doodle Baseball collects, uses, and protects your personal information when you use our gaming platform.',
   path: '/privacy',
 });
 
@@ -35,11 +35,11 @@ export default function PrivacyPage() {
             <h2 className="text-xl font-bold text-gray-900 dark:text-white mb-3 text-left">📋 Policy Overview</h2>
             <div className="prose prose-sm max-w-none text-left">
               <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-3">
-                Geometry Dash Lite ("we", "our", "the website") respects and protects the privacy rights of all visitors.
+                Doodle Baseball ("we", "our", "the website") respects and protects the privacy rights of all visitors.
                 This privacy policy explains how we collect, use, store, and protect your personal information.
               </p>
               <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-3">
-                By accessing and using our website <strong>geometry-dash-lite.org</strong>,
+                By accessing and using our website <strong>doodlebaseballgame.org</strong>,
                 you agree to the practices described in this privacy policy.
               </p>
             </div>
@@ -204,13 +204,13 @@ export default function PrivacyPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-2">
               <a
-                href="mailto:support@geometry-dash-lite.org?subject=Privacy Policy Inquiry"
+                href="mailto:support@doodlebaseballgame.org?subject=Privacy Policy Inquiry"
                 className="bg-white text-blue-600 px-4 py-2 rounded-lg font-medium text-sm hover:bg-blue-50 transition-colors text-center"
               >
                 Send Email
               </a>
               <span className="bg-white bg-opacity-20 px-4 py-2 rounded-lg text-sm">
-                support@geometry-dash-lite.org
+                support@doodlebaseballgame.org
               </span>
             </div>
           </div>

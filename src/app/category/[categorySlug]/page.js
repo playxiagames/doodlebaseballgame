@@ -174,7 +174,7 @@ export default function CategoryPage({ params }) {
                     Each level is carefully crafted to sync with electronic music, making every jump, flip, and dash feel like part of a musical performance.
                   </p>
                   <p>
-                    From the accessible Geometry Dash Lite to the intense challenges of advanced versions, 
+                    From the accessible original games to the intense challenges of advanced versions, 
                     these games provide endless entertainment and the satisfaction of mastering increasingly difficult obstacles.
                   </p>
                 </div>

@@ -17,7 +17,7 @@ const nextConfig = {
     ignoreBuildErrors: true,
   },
   env: {
-    CUSTOM_KEY: 'geometry-dash-lite-site',
+    CUSTOM_KEY: 'doodle-baseball-game-site',
   },
   pageExtensions: ['js', 'jsx', 'ts', 'tsx'],
   compress: true,
