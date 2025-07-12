@@ -20,29 +20,27 @@
   "homepage": {
     "mainGame": "doodle-baseball",
     "popularGames": [
-      "subway-surfers",
-      "dinosaur-game",
-      "solitaire",
-      "sprunki",
-      "minecraft",
-      "2048"
+      "football-bros",
+      "crazy-cattle-3d",
+      "ragdoll-archers",
+      "ball-orbit"
     ],
-    "newGames": ["basketball", "minesweeper", "google-minesweeper"],
-    "hotGames": ["doodle-baseball", "dinosaur-game", "subway-surfers", "sprunki"]
+    "newGames": ["football-bros"],
+    "hotGames": ["crazy-cattle-3d", "ragdoll-archers", "ball-orbit"]
   },
   "navigation": {
     "topItems": [
       {
         "type": "category",
-        "id": "google-games",
-        "title": "Google Games",
-        "url": "/category/google-games/"
+        "id": "football-games",
+        "title": "Football Games",
+        "url": "/category/football-games/"
       },
       {
         "type": "category",
-        "id": "geometry-dash",
-        "title": "Geometry Dash",
-        "url": "/category/geometry-dash/"
+        "id": "basketball-games",
+        "title": "Basketball Games",
+        "url": "/category/basketball-games/"
       },
       {
         "type": "category",
@@ -52,9 +50,9 @@
       },
       {
         "type": "game",
-        "id": "subway-surfers",
+        "id": "crazy-cattle-3d",
         "title": "Subway Surfers",
-        "url": "/games/subway-surfers/"
+        "url": "/games/crazy-cattle-3d/"
       }
     ]
   },
