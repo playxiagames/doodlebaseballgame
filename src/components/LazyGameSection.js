@@ -15,8 +15,7 @@ const GameGridSuspense = ({ children, gridCols = "grid-cols-2 sm:grid-cols-3 md:
 const LazyGameSection = ({ 
   googleGames,
   popularGames,
-  geometryDashGamesPreview,
-  js13kGamesPreview,
+  basketballGames,
   moreGames,
   allGamesCount
 }) => {
@@ -59,51 +58,53 @@ const LazyGameSection = ({
       <div className="mt-8">
         <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6 text-left">🎯 Explore More Game Categories</h2>
         
-        {/* Geometry Dash Games Preview */}
-        {geometryDashGamesPreview.length > 0 && (
+        {/* Football Games Preview */}
+        {googleGames.length > 0 && (
           <div className="mb-8">
             <div className="flex items-center justify-between mb-4">
-              <h3 className="text-xl font-semibold text-gray-900 dark:text-white">🚀 Geometry Dash Collection</h3>
+              <h3 className="text-xl font-semibold text-gray-900 dark:text-white">⚽ Football Games Collection</h3>
               <a 
-                href="/category/geometry-dash/"
+                href="/category/football-games/"
                 className="text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300 font-medium text-sm transition-colors"
               >
-                View All Geometry Dash Games →
+                View All Football Games →
               </a>
             </div>
-            <div className="bg-orange-50 dark:bg-orange-900/20 rounded-lg p-3 mb-4">
+            <div className="bg-green-50 dark:bg-green-900/20 rounded-lg p-3 mb-4">
               <p className="text-gray-700 dark:text-gray-300 text-sm">
-                🎵 Rhythm-based platform games with challenging obstacles and amazing music beats!
+                ⚽ Experience the beautiful game with realistic physics and competitive gameplay!
               </p>
             </div>
             <GameGridSuspense gridCols="grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
-              <GameGrid games={geometryDashGamesPreview} gridCols="grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6" />
+              <GameGrid games={googleGames} gridCols="grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6" />
             </GameGridSuspense>
           </div>
         )}
 
-        {/* JS13K Games Preview */}
-        {js13kGamesPreview.length > 0 && (
+        {/* Basketball Games Preview */}
+        {basketballGames.length > 0 && (
           <div className="mb-8">
             <div className="flex items-center justify-between mb-4">
-              <h3 className="text-xl font-semibold text-gray-900 dark:text-white">⚡ Minimalist JS13K Games</h3>
+              <h3 className="text-xl font-semibold text-gray-900 dark:text-white">🏀 Basketball Games Collection</h3>
               <a 
-                href="/category/js13k-games/"
+                href="/category/basketball-games/"
                 className="text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300 font-medium text-sm transition-colors"
               >
-                View All JS13K Games →
+                View All Basketball Games →
               </a>
             </div>
-            <div className="bg-purple-50 dark:bg-purple-900/20 rounded-lg p-3 mb-4">
+            <div className="bg-orange-50 dark:bg-orange-900/20 rounded-lg p-3 mb-4">
               <p className="text-gray-700 dark:text-gray-300 text-sm">
-                💎 Incredible games built in just 13KB of code - showcasing creativity and technical mastery!
+                🏀 Master precision shooting and competitive basketball action!
               </p>
             </div>
-            <GameGridSuspense gridCols="grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6" skeletonCount={4}>
-              <GameGrid games={js13kGamesPreview} gridCols="grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6" />
+            <GameGridSuspense gridCols="grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
+              <GameGrid games={basketballGames} gridCols="grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6" />
             </GameGridSuspense>
           </div>
         )}
+
+
       </div>
 
       {/* More Games Discovery Section */}

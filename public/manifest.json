@@ -26,13 +26,13 @@
   "categories": ["games", "entertainment"],
   "screenshots": [
     {
-      "src": "https://images.geometry-dash-lite.org/og-geometry-dash-lite.webp",
+      "src": "https://images.doodlebaseballgame.org/og-doodle-baseball.webp",
       "sizes": "1280x720",
       "type": "image/jpeg",
       "form_factor": "wide"
     },
     {
-      "src": "https://images.geometry-dash-lite.org/og-geometry-dash-lite.webp",
+      "src": "https://images.doodlebaseballgame.org/og-doodle-baseball.webp",
       "sizes": "375x667",
       "type": "image/jpeg",
       "form_factor": "narrow"

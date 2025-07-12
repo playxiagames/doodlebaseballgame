@@ -214,7 +214,7 @@ export const sortGamesByPriority = (games) => {
   });
 };
 
-// 获取 Geometry Dash 系列游戏
+// 获取分类游戏
 export const getGeometryDashGames = () => {
   const geometryDashGames = gamesData.games.filter(game => game.category === 'geometry-dash');
   return sortGamesByPriority(geometryDashGames);

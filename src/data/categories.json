@@ -4,28 +4,19 @@
       "id": "football-games",
       "name": "Football Games",
       "slug": "football-games",
-      "description": "",
-      "longDescription": "",
+      "description": "Dive into the world's most popular sport with our exciting collection of football games featuring realistic physics, strategic gameplay, and competitive action for all skill levels.",
+      "longDescription": "Experience the beautiful game like never before with our comprehensive collection of football games that capture the essence of soccer through innovative gameplay mechanics and engaging features. From intense penalty shootouts and fast-paced arcade matches to strategic team management and physics-based gameplay, these games offer diverse experiences for every football enthusiast. Whether you're perfecting your free kicks, managing a championship team, or enjoying casual matches with friends, our football games deliver authentic sporting excitement. Each game features intuitive controls, stunning graphics, and competitive multiplayer action that brings the thrill of the pitch directly to your browser. Perfect for quick gaming sessions or extended tournaments, these games combine accessibility with depth to create memorable football experiences.",
       "isTopLevel": true,
-      "gameCount": 10
+      "gameCount": 5
     },
     {
       "id": "basketball-games",
       "name": "Basketball Games",
       "slug": "basketball-games",
-      "description": "",
-      "longDescription": "",
+      "description": "Step onto the virtual court with our premium basketball games collection, featuring precision shooting mechanics, competitive tournaments, and skill-based challenges.",
+      "longDescription": "Master the art of basketball with our exceptional collection of games that bring the fast-paced excitement of the court directly to your screen. From simple shooting challenges and free-throw competitions to complex multiplayer tournaments and full-court action, these games offer a complete basketball experience for players of all skill levels. Perfect your shooting technique, master advanced dribbling moves, and compete against players worldwide while enjoying realistic physics and responsive controls. Each game features progressive difficulty systems, unlockable content, and various game modes including career challenges, quick matches, and championship tournaments. Whether you're practicing your three-point shots or leading your team to victory, our basketball games provide the perfect combination of accessibility and competitive depth that keeps you coming back for more.",
       "isTopLevel": true,
-      "gameCount": 10
-    },
-    {
-      "id": "google-games",
-      "name": "Google Games",
-      "slug": "google-games",
-      "description": "Free Google games collection - classic arcade games including Pac-Man, Snake, Doodle Baseball and more.",
-      "longDescription": "Google Games represents a curated collection of classic arcade games that have been reimagined and optimized by Google. Our selection includes iconic titles that have entertained millions of players worldwide. Featured games include the legendary Pac-Man, where you navigate mazes eating dots while avoiding colorful ghosts; the addictive Snake Game that defined early mobile gaming; Google's charming Doodle Baseball with hand-drawn graphics and intuitive gameplay; the challenging Google Minesweeper with modern design improvements; Atari Breakout for classic brick-breaking action; Basketball for arcade-style shooting fun; and the famous Dinosaur Game (Chrome Dino) that appears when your internet connection fails. These games showcase Google's commitment to preserving gaming history while making classic titles accessible to modern audiences. Each game maintains the simple, pick-up-and-play nature that made the originals so popular, while benefiting from improved graphics, smooth controls, and browser-based convenience. Perfect for quick gaming sessions, these timeless classics offer instant entertainment without downloads or installations.",
-      "isTopLevel": true,
-      "gameCount": 7
+      "gameCount": 3
     }
   ]
 } 

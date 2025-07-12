@@ -27,27 +27,27 @@ const Footer = () => {
             <h4 className="text-base font-semibold mb-3">Quick Links</h4>
             <ul className="space-y-1">
               <li>
-                <a href="/category/geometry-dash/" className="text-gray-300 hover:text-white transition-colors text-sm">
-                  Geometry Dash Games
+                <a href="/category/football-games/" className="text-gray-300 hover:text-white transition-colors text-sm">
+                Football Games
                 </a>
               </li>
               <li>
-                <a href="/category/google-games/" className="text-gray-300 hover:text-white transition-colors text-sm">
-                  Google Games
+                <a href="/category/basketball-games/" className="text-gray-300 hover:text-white transition-colors text-sm">
+                  Basketball Games
                 </a>
               </li>
               <li>
-                <a href="/category/js13k-games/" className="text-gray-300 hover:text-white transition-colors text-sm">
-                  JS13K Games
+                <a href="https://geometry-dash-lite.org/" target="_blank" className="text-gray-300 hover:text-white transition-colors text-sm">
+                  Geometry Dash Lite
                 </a>
               </li>
               <li>
-                <a href="https://geometry-dash-unblocked.com" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors text-sm">
+                <a href="https://geometry-dash-unblocked.com" target="_blank" className="text-gray-300 hover:text-white transition-colors text-sm">
                   Geometry Dash Unblocked
                 </a>
               </li>
               <li>
-                <a href="https://www.playxia.com" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors text-sm">
+                <a href="https://www.playxia.com" target="_blank" className="text-gray-300 hover:text-white transition-colors text-sm">
                   Playxia Games
                 </a>
               </li>

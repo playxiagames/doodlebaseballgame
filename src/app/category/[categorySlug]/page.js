@@ -163,22 +163,45 @@ export default function CategoryPage({ params }) {
             {/* Additional SEO Content */}
             <div className="mt-8 pt-6 border-t border-gray-200 dark:border-slate-600">
               <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-3">Why Play {category.name} Games?</h3>
-              {category.id === 'geometry-dash' && (
+              {category.id === 'football-games' && (
                 <div className="space-y-4 text-gray-700 dark:text-gray-300">
                   <p>
-                    Geometry Dash games offer a unique blend of platforming action and musical rhythm that creates an unparalleled gaming experience. 
-                    These games are perfect for players who enjoy challenging themselves with precise timing and coordination skills.
+                    Football games deliver the excitement and strategy of the world's most popular sport right to your browser. 
+                    These games capture the essence of football with intuitive controls, realistic physics, and engaging gameplay 
+                    that appeals to both casual players and serious football fans.
                   </p>
                   <p>
-                    The series has become a phenomenon in the gaming world due to its simple yet addictive gameplay mechanics. 
-                    Each level is carefully crafted to sync with electronic music, making every jump, flip, and dash feel like part of a musical performance.
+                    From fast-paced arcade action to strategic team management, our football games collection offers diverse 
+                    gameplay experiences. Whether you prefer penalty shootouts, full matches, or unique physics-based variants, 
+                    each game provides hours of entertainment with smooth controls and competitive action.
                   </p>
                   <p>
-                    From the accessible original games to the intense challenges of advanced versions, 
-                    these games provide endless entertainment and the satisfaction of mastering increasingly difficult obstacles.
+                    These browser-based football games are perfect for quick gaming sessions or extended play. 
+                    With no downloads required, you can jump straight into the action and experience the thrill of scoring goals, 
+                    making crucial saves, and leading your team to victory.
                   </p>
                 </div>
               )}
+              {category.id === 'basketball-games' && (
+                <div className="space-y-4 text-gray-700 dark:text-gray-300">
+                  <p>
+                    Basketball games bring the fast-paced excitement of the court to your screen with precision shooting mechanics 
+                    and competitive gameplay. These games focus on skill development, timing, and strategy that mirror the real sport 
+                    while providing accessible fun for players of all levels.
+                  </p>
+                  <p>
+                    Our basketball games collection features everything from simple shooting challenges to full court competitions. 
+                    Each game emphasizes different aspects of basketball - from perfecting your free throw technique to mastering 
+                    complex dribbling moves and strategic team play.
+                  </p>
+                  <p>
+                    The beauty of these basketball games lies in their immediate playability and progressive challenge systems. 
+                    Start with basic shots and gradually work your way up to advanced techniques, unlocking new courts, 
+                    characters, and game modes as you improve your skills.
+                  </p>
+                </div>
+              )}
+
               {category.id === 'google-games' && (
                 <div className="space-y-4 text-gray-700 dark:text-gray-300">
                   <p>

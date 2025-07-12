@@ -234,9 +234,9 @@ export default function RootLayout({ children }) {
         
         {/* 资源预获取优化 - 预加载用户可能访问的页面 */}
         <link rel="prefetch" href="/all-games/" />
-        <link rel="prefetch" href="/category/geometry-dash/" />
-        <link rel="prefetch" href="/category/google-games/" />
-        <link rel="prefetch" href="/games/geometry-dash/" />
+        <link rel="prefetch" href="/category/football-games/" />
+        <link rel="prefetch" href="/category/basketball-games/" />
+        <link rel="prefetch" href="/games/crazy-cattle-3d/" />
         
         {/* 预加载关键游戏资源 */}
         <link rel="dns-prefetch" href="//1games.io" />

@@ -53,23 +53,21 @@ export default function HomePage() {
   
   // 获取各种游戏数据
   const sidebarGames = getSidebarRecommendedGames(mainGame.id, 7);
-  const googleGames = getGamesByCategory('google-games'); // 完整的 Google Games 列表作为核心产品
+  const footballGames = getGamesByCategory('football-games'); // 完整的 Google Games 列表作为核心产品
   const popularGames = getPopularGames();
   const allGames = getAllGames(); // 用于获取游戏总数
   
   // 获取分类预览游戏
   const categories = getAllCategories();
-  const geometryDashGamesPreview = getCategoryPreviewGames('geometry-dash', 6); // Geometry Dash 改为预览
-  const js13kGamesPreview = getCategoryPreviewGames('js13k-games', 4);
+  const basketballGames = getGamesByCategory('basketball-games'); // Basketball Games
 
   // 收集已展示的游戏ID，用于排除重复
   const displayedGameIds = [
     mainGame.id,
     ...sidebarGames.map(g => g.id),
-    ...googleGames.map(g => g.id),
+    ...footballGames.map(g => g.id),
     ...popularGames.map(g => g.id),
-    ...geometryDashGamesPreview.map(g => g.id),
-    ...js13kGamesPreview.map(g => g.id)
+    ...basketballGames.map(g => g.id)
   ];
 
   // 获取更多游戏，排除已展示的
@@ -111,10 +109,9 @@ export default function HomePage() {
           </div>
         }>
           <LazyGameSection
-            googleGames={googleGames}
+            googleGames={footballGames}
             popularGames={popularGames}
-            geometryDashGamesPreview={geometryDashGamesPreview}
-            js13kGamesPreview={js13kGamesPreview}
+            basketballGames={basketballGames}
             moreGames={moreGames}
             allGamesCount={allGames.length}
           />

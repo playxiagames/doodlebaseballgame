@@ -104,8 +104,8 @@ export const generateCategoryPageMetadata = (category) => {
     });
   }
 
-  const categoryTitle = `${category.name} Games - Free Online`;
-  const categoryDescription = `Play the best ${category.name.toLowerCase()} games online for free! ${category.description}`;
+  const categoryTitle = `${category.name} - Free Online`;
+  const categoryDescription = `${category.description}`;
 
   return generatePageMetadata({
     title: categoryTitle,

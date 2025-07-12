@@ -163,7 +163,7 @@ export default function sitemap() {
     }
     
     // 重要分类额外加权
-    if (category.id === 'geometry-dash' || category.id === 'google-games') {
+    if (category.id === 'doodle-baseball' || category.id === 'football-games') {
       categoryPriority += 0.1;
     }
     

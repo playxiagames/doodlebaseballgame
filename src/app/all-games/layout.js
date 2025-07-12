@@ -2,7 +2,7 @@
 export const metadata = {
   title: 'Search All Games - Find Your Perfect Game | Doodle Baseball',
   description: 'Search and discover your perfect game from our complete collection! Use powerful filters to find games by name, category, rating. Over 100+ free online games to explore.',
-  keywords: 'search games, find games, all games, game search, free online games, complete collection, game library, browser games, geometry dash games, google games',
+      keywords: 'search games, find games, all games, game search, free online games, complete collection, game library, browser games, football games, basketball games, doodle baseball',
   openGraph: {
     title: 'Search All Games - Find Your Perfect Game | Doodle Baseball',
     description: 'Search and discover your perfect game from our complete collection! Use powerful filters to find games by name, category, rating.',
