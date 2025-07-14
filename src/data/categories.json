@@ -17,6 +17,15 @@
       "longDescription": "Master the art of basketball with our exceptional collection of games that bring the fast-paced excitement of the court directly to your screen. From simple shooting challenges and free-throw competitions to complex multiplayer tournaments and full-court action, these games offer a complete basketball experience for players of all skill levels. Perfect your shooting technique, master advanced dribbling moves, and compete against players worldwide while enjoying realistic physics and responsive controls. Each game features progressive difficulty systems, unlockable content, and various game modes including career challenges, quick matches, and championship tournaments. Whether you're practicing your three-point shots or leading your team to victory, our basketball games provide the perfect combination of accessibility and competitive depth that keeps you coming back for more.",
       "isTopLevel": true,
       "gameCount": 3
+    },
+    {
+      "id": "baseball-games",
+      "name": "Baseball Games",
+      "slug": "baseball-games",
+      "description": "Step onto the virtual court with our premium basketball games collection, featuring precision shooting mechanics, competitive tournaments, and skill-based challenges.",
+      "longDescription": "Master the art of basketball with our exceptional collection of games that bring the fast-paced excitement of the court directly to your screen. From simple shooting challenges and free-throw competitions to complex multiplayer tournaments and full-court action, these games offer a complete basketball experience for players of all skill levels. Perfect your shooting technique, master advanced dribbling moves, and compete against players worldwide while enjoying realistic physics and responsive controls. Each game features progressive difficulty systems, unlockable content, and various game modes including career challenges, quick matches, and championship tournaments. Whether you're practicing your three-point shots or leading your team to victory, our basketball games provide the perfect combination of accessibility and competitive depth that keeps you coming back for more.",
+      "isTopLevel": true,
+      "gameCount": 3
     }
   ]
 } 

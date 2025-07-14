@@ -7,7 +7,7 @@
       "slug": "doodle-baseball",
       "description": "Experience Google's iconic baseball doodle game! Play as adorable food characters including hot dogs, popcorn, and ice cream in this charming physics-based baseball game.",
       "longDescription": "Doodle Baseball is Google's beloved doodle game that transforms the classic American pastime into a whimsical adventure. Originally created to celebrate the start of the Major League Baseball season, this game features charming doodle-style graphics and unique gameplay mechanics. Players control cute food characters like hot dogs, popcorn kernels, ice cream cones, and watermelon slices as they step up to bat against a peanut pitcher. The game combines simple one-click controls with strategic timing, making it accessible to players of all ages while providing surprising depth. Each successful hit advances your team through the bases, and the goal is to score as many runs as possible. The retro 8-bit aesthetic and delightful animations create a nostalgic gaming experience that captures the joy of baseball in a fun, lighthearted way.",
-      "category": "",
+      "category": "baseball-games",
       "tags": [
         "sports",
         "classic",
@@ -391,7 +391,7 @@
       "slug": "baseball-bros",
       "description": "Step up to the plate in this action-packed baseball game! Experience America's favorite pastime with dynamic gameplay and competitive multiplayer matches.",
       "longDescription": "Baseball Bros brings the excitement of America's favorite pastime to life with engaging multiplayer action and intuitive gameplay mechanics. Developed by Blue Wizard Digital, this game combines competitive sports action with lighthearted humor, delivering endless fun for both baseball fans and casual gamers. The game features various modes including online multiplayer battles, franchise mode for strategic team building, and casual quick matches for relaxed play. Players can engage in head-to-head showdowns with competitors from around the world, where split-second decisions and strategic thinking determine the outcome. The streamlined controls ensure accessibility while maintaining depth for those seeking competitive challenges. With its blend of classic baseball elements and modern gaming innovations, Baseball Bros offers a fresh take on the traditional baseball experience.",
-      "category": "sports",
+      "category": "baseball-games",
       "tags": [
         "baseball",
         "multiplayer",
@@ -999,7 +999,7 @@
       "slug": "head-basketball",
       "description": "Play basketball with oversized heads in this fun arcade game! Use your large head to control the ball and score amazing baskets in exciting matches.",
       "longDescription": "Head Basketball offers a unique and entertaining twist on traditional basketball with its signature oversized character heads and simplified gameplay mechanics. The game strips away complex controls to focus on pure fun and accessibility, making it perfect for players of all ages. Characters use their large heads to control the ball, creating distinctive gameplay that's both hilarious and challenging. The game features various tournaments, special events, and customization options that keep the experience fresh. With its colorful graphics, smooth animations, and intuitive physics, Head Basketball provides endless entertainment. The scoring system rewards both skill and creativity, encouraging players to attempt spectacular shots and moves.",
-      "category": "sports",
+      "category": "basketball-games",
       "tags": [
         "basketball",
         "arcade",
@@ -1037,7 +1037,7 @@
       "slug": "cannon-basketball",
       "description": "Launch basketballs from cannons in this physics-based puzzle game! Aim carefully and use trajectory calculations to score amazing shots.",
       "longDescription": "Cannon Basketball combines physics-based puzzle solving with basketball shooting in an innovative and challenging game experience. Players must master trajectory calculations, angle adjustments, and power control to successfully launch basketballs from cannons into hoops. The game features increasingly complex levels with obstacles, moving targets, and environmental challenges that require creative problem-solving. The physics engine provides realistic ball movement and collision detection that rewards precise aiming and strategic thinking. With its progressive difficulty curve and diverse level designs, Cannon Basketball offers engaging puzzle gameplay that appeals to both sports fans and puzzle enthusiasts. The game's unique concept creates memorable moments as players experiment with different shooting angles and techniques.",
-      "category": "puzzle",
+      "category": "basketball-games",
       "tags": [
         "basketball",
         "physics",
@@ -1075,7 +1075,7 @@
       "slug": "doodle-basketball",
       "description": "Shoot hoops in this charming doodle-style basketball game! Enjoy simple controls and addictive gameplay in a delightful hand-drawn basketball experience.",
       "longDescription": "Doodle Basketball brings the charm of hand-drawn aesthetics to basketball gaming with its delightful doodle-style graphics and accessible gameplay. The game features simple shooting mechanics that are easy to learn but challenging to master, making it perfect for players of all skill levels. The doodle art style creates a unique visual experience that stands out from traditional sports games. Players can enjoy various game modes including endless shooting challenges, tournament play, and skill-based competitions. The game's physics system provides satisfying ball movement and hoop interactions that reward good shooting technique. With its casual-friendly approach and charming presentation, Doodle Basketball offers a relaxing yet engaging basketball experience.",
-      "category": "sports",
+      "category": "basketball-games",
       "tags": [
         "basketball",
         "doodle",
@@ -1255,6 +1255,265 @@
         "Plan your ranch layout strategically",
         "Learn each animal's behavioral patterns",
         "Embrace the chaos and have fun"
+      ],
+      "relatedGameIds": []
+    },
+    {
+      "number": 34,
+      "id": "football-stars",
+      "title": "Football Stars",
+      "slug": "football-stars",
+      "description": "Compete in tournament matches with strategic football gameplay! Master shooting, dribbling, and defensive tactics to lead your team to championship victory with exciting multiplayer action.",
+      "longDescription": "Football Stars delivers competitive football action with tournament-style gameplay and strategic team management. Choose your squad and compete against skilled opponents in intense matches that require precise shooting, creative dribbling, and tactical defensive play. The game features multiple tournament modes where you can showcase your football skills and rise through the ranks. Master various special moves and shooting techniques to outplay your opponents. With realistic ball physics and responsive controls, every match feels authentic and challenging. Build your team's chemistry through training and strategic lineup decisions that impact your performance on the field.",
+      "category": "football-games",
+      "tags": [
+        "football",
+        "sports",
+        "strategy",
+        "multiplayer",
+        "tournament"
+      ],
+      "iframeUrl": "https://1games.io/embed/football-stars",
+      "thumbnail": "https://images.geometry-dash-lite.org/football-stars.webp",
+      "screenshot": "https://images.geometry-dash-lite.org/football-stars.webp",
+      "playCount": 1850000,
+      "rating": 4.6,
+      "ratingCount": 138654,
+      "reviewCount": 19876,
+      "controls": [
+        "Arrow keys or WASD to move",
+        "Click to shoot or pass",
+        "Spacebar for special moves",
+        "Hold for power adjustment"
+      ],
+      "tips": [
+        "Time your shots for maximum accuracy",
+        "Use dribbling to create scoring opportunities",
+        "Watch opponent movement patterns",
+        "Practice different shooting angles",
+        "Coordinate team plays for better results"
+      ],
+      "relatedGameIds": []
+    },
+    {
+      "number": 35,
+      "id": "football-masters",
+      "title": "Football Masters",
+      "slug": "football-masters",
+      "description": "Control your favorite team in this arcade football game! Use WASD to move, kick and supershot buttons to dominate matches with friends or AI opponents in tournament play.",
+      "longDescription": "Football Masters brings fast-paced arcade football action with intuitive controls and competitive gameplay. Choose your favorite team and battle in tournament mode against AI opponents or challenge friends in local multiplayer matches. The game features responsive WASD movement controls, shooting mechanics, and special supershot abilities that add tactical depth to every match. Master the art of positioning, timing, and power control to outplay your opponents. With its colorful graphics and smooth animations, Football Masters delivers an engaging football experience that's easy to learn but challenging to master. Perfect for quick matches or extended tournament campaigns.",
+      "category": "football-games",
+      "tags": [
+        "football",
+        "sports",
+        "arcade",
+        "2-player",
+        "tournament"
+      ],
+      "iframeUrl": "https://1games.io/embed/football-masters",
+      "thumbnail": "https://images.geometry-dash-lite.org/football-masters.webp",
+      "screenshot": "https://images.geometry-dash-lite.org/football-masters.webp",
+      "playCount": 2250000,
+      "rating": 4.5,
+      "ratingCount": 168743,
+      "reviewCount": 22456,
+      "controls": [
+        "WASD or Arrow keys to move",
+        "X or L button to kick/shoot",
+        "Z or K button for supershot",
+        "S or Down arrow to slide"
+      ],
+      "tips": [
+        "Practice supershot timing for powerful strikes",
+        "Use sliding tackles to defend effectively", 
+        "Master ball control for better positioning",
+        "Learn to anticipate opponent movements",
+        "Experiment with different shooting angles"
+      ],
+      "relatedGameIds": []
+    },
+    {
+      "number": 36,
+      "id": "american-football-challenge",
+      "title": "American Football Challenge",
+      "slug": "american-football-challenge",
+      "description": "Test your reflexes in this American football catching game! Move your gloves to catch perfect passes from the quarterback and advance through increasingly challenging levels.",
+      "longDescription": "American Football Challenge puts your catching skills to the ultimate test in this exciting reflex-based sports game. Control receiver gloves to catch footballs thrown by your quarterback as you progress through multiple challenging levels. The game requires precise timing and quick reflexes as the speed increases and catching becomes more difficult. Each successful catch earns you points, and catching multiple balls in succession unlocks higher levels with even greater challenges. With realistic football throwing mechanics and satisfying catch animations, this game captures the thrill of making those crucial game-winning catches. Perfect for football fans who want to experience the pressure and excitement of being a star receiver.",
+      "category": "football-games",
+      "tags": [
+        "american-football",
+        "sports",
+        "reflexes",
+        "skill",
+        "catching"
+      ],
+      "iframeUrl": "https://1games.io/embed/american-football-challenge",
+      "thumbnail": "https://images.geometry-dash-lite.org/american-football-challange.webp",
+      "screenshot": "https://images.geometry-dash-lite.org/american-football-challenge.webp",
+      "playCount": 890000,
+      "rating": 4.2,
+      "ratingCount": 66754,
+      "reviewCount": 9123,
+      "controls": [
+        "Move mouse to control receiver gloves",
+        "Click to catch the ball",
+        "Time your catches perfectly",
+        "React quickly to ball trajectory"
+      ],
+      "tips": [
+        "Watch the quarterback's throwing motion",
+        "Position gloves ahead of the ball's path",
+        "Stay focused as speed increases",
+        "Practice timing for consistent catches",
+        "Keep your eyes on the ball at all times"
+      ],
+      "relatedGameIds": []
+    },
+    {
+      "number": 37,
+      "id": "super-baseball",
+      "title": "Super Baseball",
+      "slug": "super-baseball",
+      "description": "Experience classic baseball action with realistic timing mechanics! Time your swings perfectly to hit home runs and master pitching to strike out opponents in this engaging arcade game.",
+      "longDescription": "Super Baseball delivers authentic baseball gameplay with precise timing mechanics and realistic ball physics. Step up to the plate and time your swings perfectly to connect with fastballs, curveballs, and changeups. The game features intuitive tap-to-swing controls where the batting circle shrinks to indicate optimal timing for maximum power hits. When pitching, master different throwing techniques and speeds to outsmart batters. With detailed batting and pitching mechanics, every at-bat feels like a real baseball showdown. The game progressively increases in difficulty, challenging players to maintain focus and timing as the stakes get higher. Perfect for baseball fans who appreciate skill-based gameplay and authentic sports action.",
+      "category": "baseball-games",
+      "tags": [
+        "baseball",
+        "sports",
+        "timing",
+        "arcade",
+        "skill"
+      ],
+      "iframeUrl": "https://1games.io/embed/super-baseball",
+      "thumbnail": "https://images.geometry-dash-lite.org/super-baseball.webp",
+      "screenshot": "https://images.geometry-dash-lite.org/super-baseball.webp",
+      "playCount": 1450000,
+      "rating": 4.4,
+      "ratingCount": 108654,
+      "reviewCount": 15432,
+      "controls": [
+        "Tap screen or click to swing",
+        "Time hits when circles align",
+        "Hold for power adjustment",
+        "Use precise timing for home runs"
+      ],
+      "tips": [
+        "Watch the pitcher's wind-up carefully",
+        "Time your swing when circles overlap",
+        "Practice timing with different pitch speeds",
+        "Aim for the sweet spot for maximum power",
+        "Stay patient and wait for good pitches"
+      ],
+      "relatedGameIds": []
+    },
+    {
+      "number": 38,
+      "id": "baseball-9",
+      "title": "Baseball 9",
+      "slug": "baseball-9",
+      "description": "Manage your baseball team in this comprehensive sports simulation! Draft players, customize lineups, and compete in league seasons with realistic gameplay mechanics and team strategy.",
+      "longDescription": "Baseball 9 offers the complete baseball management experience with in-depth team building and strategic gameplay. Create and customize your team roster, manage player statistics, and compete in full league seasons. The game features realistic baseball mechanics including pitching, batting, base running, and fielding with intuitive controls that capture the essence of America's pastime. Build your dream team through player drafts, train your squad to improve their skills, and make tactical decisions that impact game outcomes. With league tournaments, championship play, and detailed player progression systems, Baseball 9 provides endless hours of strategic baseball entertainment for both casual fans and serious strategists.",
+      "category": "baseball-games",
+      "tags": [
+        "baseball",
+        "sports",
+        "management",
+        "simulation",
+        "strategy"
+      ],
+      "iframeUrl": "https://1games.io/embed/baseball-9",
+      "thumbnail": "https://images.geometry-dash-lite.org/baseball-9.webp",
+      "screenshot": "https://images.geometry-dash-lite.org/baseball-9.webp",
+      "playCount": 1680000,
+      "rating": 4.3,
+      "ratingCount": 125987,
+      "reviewCount": 17834,
+      "controls": [
+        "Tap to swing at pitches",
+        "Swipe to control pitch direction",
+        "Drag to position fielders",
+        "Tap bases to run"
+      ],
+      "tips": [
+        "Balance your team with good pitchers and hitters",
+        "Train players regularly to improve stats",
+        "Study opponent batting patterns",
+        "Manage player fatigue during seasons",
+        "Make smart substitutions in crucial moments"
+      ],
+      "relatedGameIds": []
+    },
+    {
+      "number": 39,
+      "id": "google-feud",
+      "title": "Google Feud",
+      "slug": "google-feud",
+      "description": "Guess the most popular Google search suggestions in this addictive quiz game! Test your knowledge of what people really search for with Family Feud-style gameplay and scoring.",
+      "longDescription": "Google Feud challenges players to think like the internet in this clever quiz game inspired by Family Feud. Choose from four categories - Culture, People, Names, and Questions - and try to guess the top 10 most popular Google search autocomplete suggestions. Each correct guess earns points based on how popular that search term is, with the most common searches worth the most points. You have three strikes before the round ends, so think carefully about your guesses. The game reveals surprising, funny, and sometimes shocking insights into what people actually search for on Google. Perfect for testing your knowledge of internet culture and popular trends while having lots of laughs with friends and family.",
+      "category": "puzzle",
+      "tags": [
+        "quiz",
+        "trivia",
+        "google",
+        "guessing",
+        "family-feud"
+      ],
+      "iframeUrl": "https://1games.io/embed/google-feud",
+      "thumbnail": "https://images.geometry-dash-lite.org/google-feud.webp",
+      "screenshot": "https://images.geometry-dash-lite.org/google-feud.webp",
+      "playCount": 3200000,
+      "rating": 4.8,
+      "ratingCount": 239876,
+      "reviewCount": 34123,
+      "controls": [
+        "Type your guesses using keyboard",
+        "Press Enter to submit answers",
+        "Click categories to choose topics",
+        "Use mouse to navigate menus"
+      ],
+      "tips": [
+        "Think about common everyday questions",
+        "Consider popular culture references",
+        "Try basic variations of words",
+        "Think about what average people search for",
+        "Don't overthink - go with obvious answers first"
+      ],
+      "relatedGameIds": []
+    },
+    {
+      "number": 40,
+      "id": "google-block-breaker",
+      "title": "Google Block Breaker",
+      "slug": "google-block-breaker",
+      "description": "Break colorful blocks in Google's addictive arcade game! Control your paddle to bounce the ball and destroy all blocks with power-ups and special abilities in this classic breakout experience.",
+      "longDescription": "Google Block Breaker is a modern take on the classic Breakout arcade game, featuring vibrant Google-colored blocks and exciting power-ups. Control your paddle to keep the ball in play while systematically destroying rows of colorful blocks above. The game includes helpful power-ups like extra balls, paddle extensions, laser shooters, and explosive bombs that add strategic depth to the gameplay. With infinite levels of increasing difficulty, smooth physics, and satisfying visual effects, this browser-based game captures the addictive essence of block-breaking games. Perfect for quick gaming sessions, Google Block Breaker offers accessible fun that's easy to learn but challenging to master as levels become more complex and fast-paced.",
+      "category": "arcade",
+      "tags": [
+        "breakout",
+        "arcade",
+        "paddle",
+        "google",
+        "blocks"
+      ],
+      "iframeUrl": "https://1games.io/embed/google-block-breaker",
+      "thumbnail": "https://images.geometry-dash-lite.org/google-block-breaker.webp",
+      "screenshot": "https://images.geometry-dash-lite.org/google-block-breaker.webp",
+      "playCount": 2750000,
+      "rating": 4.5,
+      "ratingCount": 206234,
+      "reviewCount": 28967,
+      "controls": [
+        "Move paddle with mouse or arrow keys",
+        "Keep ball bouncing to break blocks",
+        "Collect power-ups for special abilities",
+        "Click volume button to enable sound"
+      ],
+      "tips": [
+        "Aim for corners to reach difficult blocks",
+        "Collect power-ups to gain advantages",
+        "Use paddle edges to control ball direction",
+        "Focus on clearing one side for better angles",
+        "Stay patient and time your movements carefully"
       ],
       "relatedGameIds": []
     }
